@@ -7,6 +7,6 @@ angular.module('SportBookingAssignment', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html'});
-  $routeProvider.when('/maps', {templateUrl: 'partials/maps.html', controller: 'Map'});
+  $routeProvider.when('/maps', {templateUrl: 'partials/maps.html'});
   $routeProvider.otherwise({redirectTo: '/home'});
 }]);

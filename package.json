@@ -1,0 +1,17 @@
+{
+  "name": "sample-maps",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Something",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "*",
+    "bower": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000"
+  }
+}

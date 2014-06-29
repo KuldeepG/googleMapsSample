@@ -1,0 +1,11 @@
+{
+  "name": "sample-maps",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Something",
+  "license": "MIT",
+  "dependencies": {
+    "angular-route": "*",
+    "angular-animate": "*"
+  }
+}

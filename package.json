@@ -5,7 +5,8 @@
   "description": "Something",
   "license": "MIT",
   "dependencies": {
-    "bower": "*"
+    "bower": "*",
+    "connect": "*"
   },
   "scripts": {
     "postinstall": "bower install",

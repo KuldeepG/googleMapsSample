@@ -1,3 +1,4 @@
-var http = require('http');
+var connect = require('connect');
 
-http.createServer(function(){}).listen(process.env.PORT || 8000)
+connect().use(connect.static('app'))
+  .use(connect.directory('app')).listen(process.env.PORT || 8000)

@@ -2,6 +2,7 @@
 
 angular.module('SportBookingAssignment', [
   'ngRoute',
+  'ngAnimate',
   'SportBookingAssignment.controllers',
 	'SportBookingAssignment.directives'
 ]).

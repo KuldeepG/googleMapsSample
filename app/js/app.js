@@ -1,7 +1,9 @@
 'use strict';
 
 angular.module('SportBookingAssignment', [
-  'ngRoute'
+  'ngRoute',
+  'SportBookingAssignment.controllers',
+	'SportBookingAssignment.directives'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html'});

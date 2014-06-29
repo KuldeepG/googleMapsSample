@@ -1,0 +1,19 @@
+<div class="row">
+	<div id="map-control" class="col-md-4 form-group">
+		<input id="pac-input" class="form-control"></input>
+	</div>
+	<div id="map-canvas"></div>
+</div>
+
+<script>
+	$(document).ready(function intialize(){
+    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    var defaultBounds = new google.maps.LatLngBounds(
+        new google.maps.LatLng(52.4837, 13.3503),
+        new google.maps.LatLng(52.5797, 13.4163));
+
+    map.fitBounds(defaultBounds);
+  });
+</script>

@@ -1,0 +1,23 @@
+html, body{
+  height:95%;
+  font-family: freight-text-pro, serif;
+  font-size: 18px;
+  background: rgb(244,244,244);
+}
+.description h2 {
+  color: rgb(0,0,0);
+}
+.description {
+  height: 500px;
+  color: rgb(94,94,94);
+}
+#map-canvas{
+  min-height:100px;
+  margin-left: 3%;
+  width: 94%;
+  height:500px;
+  border: 1px solid lightblue;
+}
+#map-control {
+  margin-left: 2%;
+}
